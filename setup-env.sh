@@ -13,6 +13,7 @@ create_files (){
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Document</title>
+        <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="css/master.css">
     </head>
     <body>
