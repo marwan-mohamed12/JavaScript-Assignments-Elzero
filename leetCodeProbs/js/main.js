@@ -63,20 +63,52 @@ function division(dividend, divisor) {
 console.log(division(6, 3));
 */
 
-function check(ransomNote, magazine) {
-    for (let i = 0; i < ransomNote.length; i++) {
-        for (let j = 0; j < magazine.length; j++) {
-            if (ransomNote[i] === magazine[j]) {
-                ransomNote =
-                    ransomNote.substr(0, i) + "*" + ransomNote.substr(i + 1);
-                magazine = magazine.substr(0, j) + "" + magazine.substr(j + 1);
-                break;
-            }
-        }
-    }
-    return ransomNote === `${"*".repeat(ransomNote.length)}` ? true : false;
-}
-// console.log(check("aab", "baa"));
-// console.log(check("aab", "baa"));
-// console.log(check("aa", "ab"));
-console.log(check("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+// function check(ransomNote, magazine) {
+//     for (let i = 0; i < ransomNote.length; i++) {
+//         for (let j = 0; j < magazine.length; j++) {
+//             if (ransomNote[i] === magazine[j]) {
+//                 ransomNote =
+//                     ransomNote.substr(0, i) + "*" + ransomNote.substr(i + 1);
+//                 magazine = magazine.substr(0, j) + "" + magazine.substr(j + 1);
+//                 break;
+//             }
+//         }
+//     }
+//     return ransomNote === `${"*".repeat(ransomNote.length)}` ? true : false;
+// }
+// // console.log(check("aab", "baa"));
+// // console.log(check("aab", "baa"));
+// // console.log(check("aa", "ab"));
+// console.log(check("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
+
+// function palindrome(x) {
+//     let palindromeList = [],
+//         num;
+//     if (x < 0) {
+//         palindromeList.push(0);
+//         num = -x;
+//     } else {
+//         num = x;
+//     }
+//     while (true) {
+//         palindromeList.push(num % 10);
+//         num = parseInt(num / 10);
+//         if (num / 10 <= 0) {
+//             break;
+//         }
+//     }
+//     console.log(palindromeList);
+//     console.log(parseInt(palindromeList.join("")));
+//     console.log(parseInt(palindromeList.reverse().join("")));
+//     console.log(x);
+//     return (
+//         parseInt(palindromeList.join("")) ===
+//         parseInt(palindromeList.reverse().join(""))
+//     );
+// }
+
+// // console.log(palindrome(121));
+// // console.log(palindrome(-121));
+// console.log(palindrome(-1));
+
+function palindrome(x) {}
