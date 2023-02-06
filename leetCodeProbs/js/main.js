@@ -111,4 +111,15 @@ console.log(division(6, 3));
 // // console.log(palindrome(-121));
 // console.log(palindrome(-1));
 
-function palindrome(x) {}
+function find_max(nums) {
+    let max_num = Number.NEGATIVE_INFINITY; // smaller than all other numbers
+    for (let num of nums) {
+        if (num > max_num) {
+            // (Fill in the missing line here)
+            max_num = num;
+        }
+    }
+    return max_num;
+}
+
+console.log(find_max([1, 2, 3, 4, 5]));
