@@ -17,6 +17,8 @@ function showTasks(element, list) {
         deleteBtn.textContent = "Delete";
         deleteBtn.className = "delete";
 
+        taskBox.className = "task";
+
         deleteBtn.setAttribute("data", `${el}`);
         taskBox.appendChild(deleteBtn);
 
