@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+select {
+    width: 300px;
+    max-width: 90%;
+    display: block;
+    margin: 15px auto 15px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 90%;
+    margin: 20px auto;
+    color: white;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    max-width: 90%;
+    display: block;
+    margin: 15px auto 15px;
+    padding: 12px;
+    font-size: 18px;
+}
