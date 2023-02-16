@@ -1,0 +1,12 @@
+{
+    "String": "Marwan",
+    "Number": 25,
+    "Address": {
+        "Berline": "St1",
+        "Alexandria": "Abosliman",
+        "Cairo": "Naser city"
+    },
+    "Skills": ["HTML", "CSS", "JavaScript"],
+    "Single?": true,
+    "null": null
+}
