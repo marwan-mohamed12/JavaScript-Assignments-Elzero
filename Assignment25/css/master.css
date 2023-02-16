@@ -1,0 +1,36 @@
+* {
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+}
+
+#data {
+        max-width: 700px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        gap: 20px;
+        color: white;
+}
+
+#data .section {
+        background-color: brown;
+        padding: 20px;
+        border-radius: 5px;
+}
+
+#data .section h2,
+p {
+        margin: 0;
+}
+
+h2 {
+        margin-bottom: 10px !important;
+}
+
+p {
+        margin-bottom: 5px !important;
+}
